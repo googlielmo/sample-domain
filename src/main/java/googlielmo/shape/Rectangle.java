@@ -18,6 +18,11 @@ public class Rectangle extends Shape {
     }
 
     @Override
+    public double getArea() {
+        return width * height;
+    }
+
+    @Override
     public String toString() {
         return super.toString() + "[" + width + "," + height + "]";
     }
